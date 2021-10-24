@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java.js" ></script>
+    <title>Desafio_2</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header id="gradiente" class="flex posicionamento">
+    <div>
+    <h1 class="cor">ME ACHA!</h1>
+</div> 
+<div>
+<h4 class="cor">Encontre um endereço pelo número de CEP</h4></header>  
+</div> 
+<div id="cordiv" class="flex posicionamento"> <span class="material-icons icone">
+    travel_explore
+    </span> </div>
+  <main class= "flex posicionamento">
+    <div id="formulario">
+      <form method="post" name="CEP">
+<fieldset>
+          <label for= "cep"> CEP </label>
+          <input type="text" required placeholder="" class="estilo"  id="cep" name="cep" value="">
+          <label for= "rua"> RUA</label>
+          <input type="text"  class="estilo" id="logradouro" name="rua" value="" disabled="">
+          <label for= "bairro"> BAIRRO</label>
+          <input type="text"  class="estilo" id="bairro" name="bairro" value="" disabled="">
+          <label for= "cidade"> CIDADE</label>
+          <input type="text"  class="estilo" id="localidade" name="cidade" value="" disabled="">
+          <label for= "estado">ESTADO</label>
+          <input type="text"  class="estilo" id="uf" name="estado" value="" disabled="">
+        </fieldset>
+    <div class="flex posicionamento estilobotao " > <input type="button" value="BUSCAR" id ="BtnBuscar" class="botao"></div>
+    </form>
+  </div>
+</main>
+  <footer></footer>
+</body>
+</html>
